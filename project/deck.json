@@ -1,0 +1,67 @@
+{
+ "v": 4,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-04T15:09:15Z"
+ },
+ "lists": "css",
+ "title": "AI Property Search",
+ "order": [
+  "cover",
+  "problem",
+  "market",
+  "poc",
+  "pocresult",
+  "vision",
+  "prompts",
+  "flow",
+  "options",
+  "workspace",
+  "onboarding",
+  "memory",
+  "analyst",
+  "compare",
+  "research",
+  "deals",
+  "cost",
+  "value"
+ ],
+ "cover": "cover",
+ "sections": {
+  "s1": {
+   "description": "Why change: filter fatigue and a market that still searches the old way",
+   "start": "cover"
+  },
+  "s2": {
+   "description": "Today: the PoC that already turns a sentence into filters",
+   "start": "poc"
+  },
+  "s3": {
+   "description": "Vision: investors describe goals and AI does the filtering",
+   "start": "vision"
+  },
+  "s4": {
+   "description": "Phase 1: a personal AI Investor Workspace",
+   "start": "workspace"
+  },
+  "s5": {
+   "description": "AI as analyst, researcher and deal manager",
+   "start": "analyst"
+  },
+  "s6": {
+   "description": "Costs and business value",
+   "start": "cost"
+  }
+ },
+ "faces": {
+  "heebo": {
+   "family": "Heebo",
+   "href": "https://fonts.googleapis.com/css2?family=Heebo:wght@400..900&display=swap"
+  },
+  "ibm-plex-sans": {
+   "family": "IBM Plex Sans",
+   "href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+  }
+ },
+ "designSystems": []
+}
