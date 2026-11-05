@@ -16,3 +16,4 @@ Click any slide or press **P** to present. Arrow keys to navigate, **Esc** to ex
 Only repository collaborators can trigger `@claude`.
 
 Slide numbers are shown in the bottom-right corner of each slide.
+Questions or problems: comment in this issue.
