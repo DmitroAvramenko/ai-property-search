@@ -1,6 +1,7 @@
 # AI Property Search - deck
 
 Live deck: https://dmitroavramenko.github.io/ai-property-search/
+Ukrainian version: https://dmitroavramenko.github.io/ai-property-search/?lang=uk
 
 Click any slide or press **P** to present. Arrow keys to navigate, **Esc** to exit.
 
@@ -14,6 +15,8 @@ Click any slide or press **P** to present. Arrow keys to navigate, **Esc** to ex
 3. Within a few minutes Claude replies in the issue with what it changed. The site updates about a minute later (refresh the page).
 
 Only repository collaborators can trigger `@claude`.
+
+Every change is applied to both the English and the Ukrainian version.
 
 Slide numbers are shown in the bottom-right corner of each slide.
 Questions or problems: comment in this issue.

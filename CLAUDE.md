@@ -9,9 +9,16 @@ People request changes by mentioning `@claude` in a GitHub issue. Your job: make
 
 - `project/deck.json` - deck index. `order` = slide ids in display order (slide N = `order[N-1]`). `title`, `sections`, `faces` (Google Fonts).
 - `project/slides/<id>.html` - one slide per file: exactly ONE `<section id="<id>" ...>` element, nothing before or after it. The file name equals the section id.
+- `project-uk/` - the Ukrainian version: same structure (`deck.json` + `slides/<id>.html`), same ids, same order. Shown at `https://dmitroavramenko.github.io/ai-property-search/?lang=uk`.
 - `assets/` - images. Reference them as `assets/<name>.jpg`.
 - `index.html` - the viewer. Do not edit it unless explicitly asked.
 - `.github/workflows/` - never edit.
+
+## Two languages: keep EN and UA identical
+
+- Every change (text, numbers, adding/removing/reordering slides, layout) must be made in BOTH `project/` (English) and `project-uk/` (Ukrainian), unless the request explicitly says only one language.
+- Ukrainian text: natural Ukrainian, AI = "ШІ". Keep in English: Connected Investors, AI Property Search, product UI labels (Single Family, Bedrooms 3-4, Est. Value), brand names (Zillow, Trulia, Redfin, BuyAbility), BRRRR, ROI, cash flow, cash-on-cash, off-market, PoC.
+- In `project-uk/` headings use `font-family:Roboto, Heebo, Arial, sans-serif` (Heebo has no Cyrillic). Ukrainian is ~15-20% longer: if a title wraps badly, shorten it.
 
 ## How people refer to slides
 
@@ -40,7 +47,7 @@ People request changes by mentioning `@claude` in a GitHub issue. Your job: make
 
 ## Writing rules
 
-- Slide text is in English.
+- Slide text: English in `project/`, Ukrainian in `project-uk/`.
 - Never use the em dash character (U+2014). Use a plain hyphen `-` instead. Typographic quotes and apostrophes (“ ” ’) are fine.
 - Do not invent statistics. If a number is needed and not given, use a bracketed placeholder like `[$__]`.
 - Change only what was asked. Do not restyle or rewrite other slides.
@@ -54,4 +61,4 @@ People request changes by mentioning `@claude` in a GitHub issue. Your job: make
 ## Finishing
 
 - Commit with a short message describing the change (for example: `Slide 5: shorten title`).
-- Reply in the issue in the same language the person wrote in: 1-3 lines on what changed, plus the link `https://dmitroavramenko.github.io/ai-property-search/#<slide number>`. Mention that the site updates about a minute after the change.
+- Reply in the issue in the same language the person wrote in: 1-3 lines on what changed, plus the links `https://dmitroavramenko.github.io/ai-property-search/#<slide number>` and `https://dmitroavramenko.github.io/ai-property-search/?lang=uk#<slide number>`. Mention that the site updates about a minute after the change.
